@@ -7,7 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Platzigram</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Oleo+Script" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="public/app.css">
+    
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
@@ -20,7 +23,7 @@
             <div class="row s10 push-s1">
                 <div class="row">
                     <div class="col m5 hide-on-small-only">
-                        imagen
+                        <img class="iphone" src="public/iphone.png" >
                     </div>
                     <div class="col s12 m7">
                         <div class="row">
@@ -38,7 +41,7 @@
                                         <input placeholder="Nombre completo" id="name" name="name" type="text">
                                         <input placeholder="Nombre de usuario" id="username" name="username" type="text">
                                         <input placeholder="Contraseña" id="password" name="password" type="password">
-                                        <button class="btn waves-effect waves-light" type="submit">Registrate</button>
+                                        <button class="btn waves-effect waves-light btn-signup" type="submit">Registrate</button>
                                     </div>
                                 </form>
                             </div>
@@ -57,7 +60,7 @@
         <div class="container">
             <div class="row">
                 <div class="col s12 l3 center-align">
-                    <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Idioma</a>
+                    <a class='dropdown-button btn btn-flat' href='#' data-activates='dropdown1'>Idioma</a>
 
                     <ul id='dropdown1' class='dropdown-content'>
                         <li><a href="#!">Español</a></li>
